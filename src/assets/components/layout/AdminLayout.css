@@ -1,0 +1,23 @@
+.admin-sider {
+  height: 100vh; 
+}
+
+.admin-logo {
+  color: #fff;
+  padding: 24px;
+  font-size: 20px;
+}
+
+.admin-main {
+  overflow: auto;
+  height: calc(100vh - 64px);
+}
+
+.admin-header {
+  background-color: #001529 !important;
+  border-left: 1px solid #fff !important;
+}
+
+.admin-header svg {
+  fill: #fff;
+}

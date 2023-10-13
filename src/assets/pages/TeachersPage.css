@@ -1,0 +1,65 @@
+.avatar {
+  border-radius: 50%;
+}
+
+.modal-btn {
+  height: 100% !important;
+}
+
+.ant-modal-title {
+  font-size: 30px !important;
+  text-align: center !important;
+}
+
+.form-item {
+  margin-bottom: 10px !important;
+}
+
+.salary-info {
+  margin-bottom: 0px;
+}
+
+.fav-group,
+.teacher-name {
+  margin-bottom: 0;
+}
+
+.student-attendance {
+  margin-bottom: 0 !important;
+}
+
+.count-badge {
+  padding: 10px 20px;
+  width: 100px;
+  height: 60px;
+}
+
+.courses-title {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.course-card {
+  padding: 20px 30px;
+  border-radius: 15.633px;
+  border: 2.605px solid #fff;
+  background: #2148C0;
+  box-shadow: 5.21094px 5.21094px 31.26563px 5.21094px rgba(0, 0, 0, 0.08);
+}
+
+.ant-table-title {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.search-result {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 8px !important;
+  padding-left: 6px;
+  color: #70757a;
+}
+
+

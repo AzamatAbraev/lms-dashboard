@@ -1,0 +1,124 @@
+.dashboard {
+  background-color: #fff;
+}
+
+.main-card {
+  padding: 30px 40px !important;
+  background-color: #001529;
+  border-radius: 15.633px;
+  background: linear-gradient(99deg, #001529 43.12%, #00d4ff 155.43%);
+  box-shadow: 5.21094px 5.21094px 31.26563px 5.21094px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.current-date {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16.422px;
+  font-weight: 400;
+}
+
+.dashboard-username {
+  color: #fff;
+  font-size: 30.844px;
+  font-weight: 600;
+}
+
+.dashboard-reminder {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16.422px;
+  font-weight: 400;
+}
+
+.stats-card {
+  padding: 60px 50px;
+  border-radius: 15.633px;
+  background: linear-gradient(99deg, #0a5194 53.12%, #dfcff7 155.43%);
+  box-shadow: 5.21094px 5.21094px 31.26563px 5.21094px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.stats-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stats-card h3 {
+  color: #fff;
+  font-size: 16.027px;
+  font-weight: 600;
+  margin-bottom: 16px !important;
+  text-align: center;
+}
+
+.statistics-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.stats-card p {
+  color: #e0dbdb;
+  font-size: 16.422px;
+  font-weight: 400;
+  text-align: center;
+  min-height: 40px;
+}
+
+.statistics-title {
+  color: #000;
+  font-size: 23.027px;
+  font-weight: 600;
+}
+
+.course-card p {
+  min-height: 50px;
+  color: #fff;
+}
+
+
+@media (max-width: 1350px) {
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .stats-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .courses-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 810px) {
+  .stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .courses-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

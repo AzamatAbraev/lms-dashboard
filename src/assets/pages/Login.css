@@ -1,0 +1,18 @@
+.login {
+  height: 100vh;
+  background-color: #2148C0;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-title {
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+}
